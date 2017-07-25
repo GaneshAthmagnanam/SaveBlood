@@ -1,0 +1,63 @@
+page-details {
+p{
+    text-align: center
+    
+}
+ion-content{
+background-color:beige;
+}
+b{
+    text-decoration: brown;
+}
+.text{
+    text-align: center;
+    color: blueviolet;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    
+    
+}
+.text1{
+    text-align: center;
+    color: blueviolet;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 18px;
+    margin-top: 20px;
+    
+}
+.name{
+    margin-top: 0px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 400;
+}
+#map {
+        width: 100%;
+        height: 100%;
+      }
+     ion-item{
+         overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+     } 
+ 
+    table {
+        
+    border-collapse: collapse;
+    width: 100%;
+    background-color:#6699CC;
+}
+th{
+    background-color:grey;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover{background-color:#f5f5f5}
+
+}

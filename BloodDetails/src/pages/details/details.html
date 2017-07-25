@@ -1,0 +1,81 @@
+<!--
+  Generated template for the DetailsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{hospitalName}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<p style="color:forestgreen">
+<b class= "name" style="text-overflow: ellipsis" >{{hospitalName}}</b>
+<b>Phone:9986004599</b>
+</p>
+<div #map id="map" style="height: 35%"></div>  
+
+<p class="text">Following Blood Groups Matches with
+<span class="text1">{{bGroup}}</span></p>
+
+<table style="width:100%">
+   <tr>
+    <th>Blood Type</th>
+    <th>Units</th> 
+    
+  </tr>
+  <tr *ngIf="Apositive!= '0'">
+    <td>A+</td>
+    <td>{{Apositive}}</td> 
+    
+  </tr>
+ <tr *ngIf="Bpositive!='0'">
+    <td>B+</td>
+    <td>{{Bpositive}}</td> 
+    
+  </tr>
+ 
+ <tr *ngIf="Anegative!='0'">
+    <td>A-</td>
+    <td>{{Anegative}}</td> 
+    
+  </tr>
+ 
+ <tr *ngIf="Bnegative!='0'">
+    <td>B-</td>
+    <td>{{Bnegative}}</td> 
+    
+  </tr>
+   <tr *ngIf="ABpositive!='0'">
+    <td>AB+</td>
+    <td>{{ABpositive}}</td> 
+    
+  </tr>
+   <tr *ngIf="ABnegative!='0'">
+    <td>AB-</td>
+    
+    <td>{{ABnegative}}</td> 
+    
+  </tr>
+ 
+
+
+   <tr *ngIf="Opositive!='0'">
+    <td>O+</td>
+    <td>{{Opositive}}</td> 
+    
+  </tr>
+   <tr *ngIf="Onegative!='0'">
+    <td>O-</td>
+    <td>{{Onegative}}</td> 
+    
+  </tr>
+ 
+
+  </table>
+</ion-content>

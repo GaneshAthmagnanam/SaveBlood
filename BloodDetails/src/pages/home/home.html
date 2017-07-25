@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Blood Centres {{bGroup}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <section>
+  <!--  <h5><article>{{hospitalName}}</article></h5>
+    <p>
+    {{address}}
+    <p>{{content_hospitalName}}</p>
+  </p>-->
+
+  <ion-list >
+   
+<ion-item text-wrap *ngFor="let item of content_hospitalName" (click)="gotToFullDetails(item)">
+
+
+<button><b style="text-shadow: 50px" style="color:black" style="font-size: 15px;">{{item}}</b></button>
+
+
+
+</ion-item>
+</ion-list>
+  
+  </section>
+  
+   
+
+
+
+</ion-content>

@@ -1,0 +1,39 @@
+<!--
+  Generated template for the BgroupsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+  <div class="flb">
+    <div class="Aligner-item Aligner-item--top"></div>
+    <img src="assets/savelife.jpg">
+    <div class="Aligner-item Aligner-item--bottom"></div>
+  </div>
+</div>
+<ion-header>
+
+  <ion-navbar>
+    <ion-title><h1>Blood Patron</h1></ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+<b><h2>Donate Blood, Save Life</h2></b>
+
+<img class="irc_mi" src="http://www.thebetterindia.com/wp-content/uploads/2015/06/Blood-Donation-in-Nagpur1.jpg" alt="Image result for blood donate images" onload="google.aft&amp;&amp;google.aft(this)" width="280" height="225">
+<div class="indent">
+<button class="button button3" style="padding-right: 40px" value="A+" (click)="buttonClicked($event)">A+</button>
+<button class="button button3" style="padding-right: 40px" value="A-" (click)="buttonClicked($event)">A-</button>
+<button class="button button3" style="padding-right: 30px" value="B+" (click)="buttonClicked($event)">B+</button>
+<div class="innerIndent">
+<button class="button button3" style="padding-right: 40px "  value="B-" (click)="buttonClicked($event)">B-</button>
+<button class="button button3" style="padding-right: 30px" value="AB+" (click)="buttonClicked($event)">AB+</button></div>
+<button class="button button3" style="padding-right: 30px" value="AB-" (click)="buttonClicked($event)">AB-</button>
+
+<button class="button button3" style="padding-right: 30px" value="O+" (click)="buttonClicked($event)">O+</button>
+<button class="button button3" style="padding-right: 40px" value="O-" (click)="buttonClicked($event)">O-</button></div>
+
+</ion-content>
